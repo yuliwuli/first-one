@@ -13,6 +13,7 @@ public class apitest {
 
     @RequestMapping(value = "/test")
     public String test(){
+        System.out.println(result);
         return result;
     }
 }
